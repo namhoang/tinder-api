@@ -1,7 +1,7 @@
 # Tinder API
 This is a simple wrapper around the Tinder API.
 
-## Example usage to retrieve recommendations and "like" the users.
+**Example usage to retrieve recommendations and "like" the users.**
 
 ````php
 
