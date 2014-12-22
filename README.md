@@ -9,7 +9,7 @@ $tinderApi = new TinderApi('REPLACE_WITH_FB_USERNAME', 'REPLACE_WITH_FB_TOKEN');
 
 $recs = $tinderApi->getRecs();
 foreach($recs as $rec){
-    $tinderBot->like($rec->_id);
+    $tinderApi->like($rec->_id);
 }
 
 ````
